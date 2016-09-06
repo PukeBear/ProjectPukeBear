@@ -50,8 +50,7 @@ public class BearController : MonoBehaviour {
 
 	}
 	void gameOver() {
-		int sceneNumber = SceneManager.GetActiveScene ().buildIndex;
-		SceneManager.LoadScene (sceneNumber);
+		Application.LoadLevel (0);
 	} 
 
 }
